@@ -1,7 +1,6 @@
-/* div {
-    background-color: cadetblue;
-} */
 
-.row {
+.color-degrade {
+    background: linear-gradient(to bottom, #95e8bb, #b0cfbe);
     align-items: center;
 }
+

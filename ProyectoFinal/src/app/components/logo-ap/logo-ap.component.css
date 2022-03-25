@@ -1,3 +1,12 @@
 #logo-ap {
-    width: 25%;
+    width: 60%;
+    vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+    #logo-ap {
+        width: 35%;
+        vertical-align: middle;
+    }   
+
 }

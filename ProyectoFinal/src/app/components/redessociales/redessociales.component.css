@@ -1,15 +1,55 @@
 .redessociales {
-    width: 19%;
+    width: 17%;
     align-items: center;
-    margin: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    vertical-align: unset;
+    max-width: 14px;
 }
 
- /* .btn-outline-dark { 
-    
+ .row {
+     align-items: center;
+ }
+
+ button {
+    background: #2B423C;
+    max-width: 100%;
+    font-size: 0.5em;
+    border-radius: 19%;
+    color: #82d9ab;
+    font-family: system-ui;
 }
 
-button{
-    
-} */
+.btn-login {
+    padding-left: 0%;
+}
 
+@media (min-width: 425px) {
+    .redessociales{
+        width: 12%;
+        align-items: center;
+        margin-left: 6%;
+        margin-right: 6%;
+        max-width: 25px;
+        vertical-align: unset;
+    }    
 
+    button {
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 768px) {
+    .redessociales{
+        width: 12%;
+        align-items: center;
+        margin-left: 6%;
+        margin-right: 6%;
+        max-width: 25px;
+        vertical-align: middle;
+    }    
+
+    button {
+        font-size: 1em;
+    }
+}

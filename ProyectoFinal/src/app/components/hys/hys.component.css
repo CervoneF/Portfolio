@@ -1,6 +1,13 @@
 h2{
-    padding: 3%;
+    padding: 7%;
     text-decoration: overline;
-    color: papayawhip;
-    font-size: 1.9rem;
+    color: #2C7F82;
+    font-size: 1.2rem;
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+}
+
+.hys-degrade {
+    background: linear-gradient(to bottom,#82d9ab, rgb(149 232 187 / 45%));
+    
 }
